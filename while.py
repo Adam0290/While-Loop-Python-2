@@ -1,23 +1,3 @@
-#while loop
-
-# num = 0
-
-# while num < 10:
-#     num += 1
-#     print (num)
-
-# import random
-# rand_num = random.randint(0,50)
-# my_num = 50
-
-# while rand_num != my_num: #The not-equal-to operator ( != ) 
-#     print(rand_num)
-#     rand_num = random.randint(0,50)
-
-# print("You've found{}!".format(my_num))
-
-
-
 import random
 card_pack = [
     "Ace Of Spades",
@@ -80,14 +60,3 @@ while rand_card != my_card:
     print(rand_card)
     rand_card = random.choice(card_pack)
 print("you've found the {}".format(my_card))
-
-# links of lists
-
-# card_deck = [
-#     ["Ace", "Two", "Three", "Four", ],
-#     ["King of Spades", "Two Hearts", "Joker", ],
-#     ["Ace", "Two", "Three", ],
-#     ["Ace", "Two", "Three", ],
-# ]
-# print(card_deck[1][2])
-
